@@ -35,7 +35,7 @@ use crate::csp_constraints::find_possible_boards;
 use crate::possible_boards::accumulate_symbol_weights;
 use crate::Mode::{BenchmarkNoGUI, GUI, ValidateNoGUI};
 use crate::benchmark::benchmark;
-use env_logger::{fmt::Color, Env, Builder};
+use env_logger::{Env, Builder};
 use crate::validate_symbol_probs::validate;
 
 
